@@ -3,14 +3,18 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+nav {
+    padding: 10px 0;
+}
 nav a {
     text-align: center;
     color: #83E8BA;
     text-decoration: none;
+    padding: 10px 15px;
 }
 nav a:hover {
-    background-color: black;
-    color: #83E8BA;
+    background-color: #83E8BA;
+    color: black;
 }
 .home-title {
     color: #504136;
@@ -33,6 +37,9 @@ h4 {
 }
 main section {
     text-align: center;
+}
+main section img{
+    box-sizing: border-box;
 }
 #background {
     height: 725px;
@@ -57,11 +64,19 @@ header {
 .icon {
     width: 80px;
 }
+section {
+    margin-bottom: 40px;
+}
+section h2 {
+    margin: 5px 0;
+}
 .book, .join {
     background-color: #B2E6D4;
-    color: #A49E8D;
+    color: #504136;
     text-decoration: none;
     font-size: 0.75em;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: white;
@@ -70,6 +85,7 @@ header {
 .msg {
     background-color: #504136;
     line-height: 1.5em;
+    padding: 30px;
 }
 .msg h2 {
     color: #B2E6D4;
@@ -78,8 +94,12 @@ header {
     color: white;
     font-size: 0.8em;
 }
+.card-img {
+    border: 10px solid black;
+}
 footer {
     background-color: #504136;
+    padding: 30px;
 }
 footer h3 {
     color: #B2E6D4;
@@ -96,4 +116,7 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+footer .icon {
+    margin-right: 10px;
 }

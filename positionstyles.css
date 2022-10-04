@@ -138,8 +138,8 @@
 
 } 
 .yellow5 {
-  width: 100px; 
-  height: 100px; 
+  width: 100%; 
+  height: auto; 
   background-color: gold; 
 } 
 .blue5 {

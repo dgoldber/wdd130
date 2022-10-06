@@ -19,7 +19,7 @@ nav a:hover {
 }
 .home-grid {
     display: grid;
-    grid-template-columns: 10fr 10fr 10fr;
+    grid-template-columns: 10fr 10fr 10fr 10fr 10fr 10fr 10fr 10fr 10fr;
 }
 .home-title {
     color: #504136;
@@ -111,10 +111,11 @@ section h2 {
     color: #504136;
 }
 .msg {
-    background-color: #504136;
+    background-color: #A49E8D;
     line-height: 1.5em;
     padding: 30px;
     box-shadow: 5px 5px 10px #504136;
+    z-index: 1;
 }
 .msg h2 {
     color: #B2E6D4;

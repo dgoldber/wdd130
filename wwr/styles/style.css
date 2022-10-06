@@ -105,10 +105,12 @@ section h2 {
     font-size: 0.75em;
     padding: 5px 10px;
     border-radius: 5px;
+    padding: 5px 15px;
 }
 .book:hover, .join:hover {
     background-color: white;
     color: #504136;
+    
 }
 .msg {
     background-color: #A49E8D;

@@ -40,6 +40,7 @@ h4 {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
+    position: relative;
 }
 #hero-box {
     grid-column: 1/4;
@@ -69,7 +70,7 @@ main section img{
 }
 #background {
     height: 725px;
-    background-color: #504136;
+    background-color: #A49E8D;
 }
 body {
     background-color: #B2E6D4;
@@ -99,7 +100,7 @@ section h2 {
     margin: 5px 0;
 }
 .book, .join {
-    background-color: #504136;
+    background-color:#A49E8D;
     color: #83E8BA;
     text-decoration: none;
     font-size: 0.75em;
@@ -113,7 +114,7 @@ section h2 {
     
 }
 .msg {
-    background-color: #A49E8D;
+    background-color: #504136;
     line-height: 1.5em;
     padding: 30px;
     box-shadow: 5px 5px 10px #504136;
@@ -232,4 +233,25 @@ footer .icon {
         margin-top: 25px;
     }
 }
-            
+/* FAQ */
+.faq {
+    background-color: #A49E8D;
+    padding: 1em 0;
+}
+.question {
+    text-align: left;
+    margin: 3em 2em;
+}
+.question p {
+    margin-left: 1.75em;
+}
+.question p, .question li {
+    line-height: 2;
+}
+.attribution {
+    font-size: 0.5em;
+    text-align: right;
+    position: absolute;
+    right: 0.5em;
+    bottom: 0.5em;
+}

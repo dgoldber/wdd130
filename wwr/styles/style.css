@@ -193,7 +193,7 @@ footer .icon {
 }
 form {
     /* Center the form on the page */
-    margin: 40px auto;
+    margin: 0 auto;
     width: 400px;
     /* Form outline */
     padding: 1em;
@@ -201,6 +201,11 @@ form {
     border-radius: 1em;
 }
   
+.contact-us {
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
 ul {
     list-style: none;
     padding: 0;

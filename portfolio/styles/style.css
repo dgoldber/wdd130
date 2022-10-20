@@ -7,6 +7,8 @@ body {
     font-family: 'Inconsolata', 'Courier New', Courier, monospace;
     background: #5B616A;
     color: #dedbd8;
+    margin: 0;
+
 }
 a {
     text-decoration: none;
@@ -17,19 +19,22 @@ header {
     display: flex;
 }
 .logo {
-    max-height: 6em;
+    max-height: 4em;
+}
+#logo-link {
+    margin-bottom: -2px; /*Not sure why there's a gap there*/
 }
 nav {
     display: flex;
     justify-content: space-around;
     width: 100%;
+    align-items: center;
 }
 nav a {
-    font-size: 2.5em;
+    font-size: 2em;
     color: #b97a57;
     padding: 0.5em 2em;
     /* height: 100%; */
-    vertical-align: middle;
 }
 nav a:hover {
     background-color: #134999;

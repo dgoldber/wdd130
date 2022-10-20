@@ -69,7 +69,7 @@ section img {
     grid-row: 2/7;
 }
 .section-text {
-    padding: 2em 2.5em;
+    padding: 1.5em 2.5em;
     background-color: #b97a57;
     grid-row: 3/6;
     z-index: 1;

@@ -50,44 +50,45 @@ main {
     color: #dedbd8;
     font-size: 4em;
 }
-section {
+#page-home section {
     display: grid;
     grid-template-columns: 1fr 100px 100px 1fr 1fr 1fr 100px 100px 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     align-items: center;
     margin: 2em 0;
 }
-.background {
+#page-home .background {
     background-color: #275dad;
     grid-column: 1/10;
     grid-row: 1/8;
     width: 100%;
     height: 100%;
 }
-section img {
+#page-home section img {
     max-height: 200px;
     grid-row: 2/7;
 }
-.section-text {
+#page-home .section-text {
     padding: 1.5em 2.5em;
     background-color: #b97a57;
     grid-row: 3/6;
     z-index: 1;
     line-height: 1.5em;
 }
-section.left .section-text {
+#page-home section.left .section-text {
     grid-column: 2/7;
 }
-section.left img {
+#page-home section.left img {
     grid-column: 7/9;
     
 }
-section.right .section-text {
+#page-home section.right .section-text {
     grid-column: 4/9;
 }
-section.right img {
+#page-home section.right img {
     grid-column: 2/4;
 }
+/*LANGUAGES*/
 .language-hero {
     display: grid;
     grid-template-columns: 1fr;
@@ -107,11 +108,11 @@ section.right img {
 
 .language-lists {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .language-lists section {
     background-color: #275dad;
-    padding: 2em;
+    padding: 4em;
 }
 .language-lists .left {
     margin-right: 4em;
@@ -121,6 +122,11 @@ section.right img {
 .list-wrapper {
     background-color: #b97a57;
     padding: 2em;
+    height: 100%;
+}
+.list-wrapper li {
+    line-height: 1.5em;
+    font-size: 1.5em;
 }
 /*FOOTER*/
 footer {

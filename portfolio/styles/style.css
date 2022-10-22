@@ -88,7 +88,25 @@ section.right .section-text {
 section.right img {
     grid-column: 2/4;
 }
-
+#page-languages #hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+#page-languages #hero h1 {
+    grid-row: 1/1;
+    grid-column: 1/1;
+    z-index: 1;
+}
+#page-languages #hero img {
+    grid-row: 1/1;
+    grid-column: 1/1;
+}
+#page-languages main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
 /*FOOTER*/
 footer {
     background-color: #A43312;

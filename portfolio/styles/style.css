@@ -88,24 +88,39 @@ section.right .section-text {
 section.right img {
     grid-column: 2/4;
 }
-#page-languages #hero {
+.language-hero {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
     align-items: center;
 }
-#page-languages #hero h1 {
+.language-hero h1 {
     grid-row: 1/1;
     grid-column: 1/1;
     z-index: 1;
 }
-#page-languages #hero img {
+.language-hero img {
     grid-row: 1/1;
     grid-column: 1/1;
 }
-#page-languages main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+
+.language-lists {
+    display: flex;
+    justify-content: space-between;
+}
+.language-lists section {
+    background-color: #275dad;
+    padding: 2em;
+}
+.language-lists .left {
+    margin-right: 4em;
+}
+.language-lists .right {
+}
+.list-wrapper {
+    background-color: #b97a57;
+    padding: 2em;
 }
 /*FOOTER*/
 footer {

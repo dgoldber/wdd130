@@ -121,7 +121,7 @@ main {
 .list-wrapper {
     background-color: #b97a57;
     padding: 2em;
-    height: calc(100% - 4em);
+    height: calc(100% - 12em);
     margin: 4em;
 }
 .list-wrapper li {

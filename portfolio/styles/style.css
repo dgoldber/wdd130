@@ -143,6 +143,7 @@ main {
     background-color: #275dad;
     padding: 4em;
     margin-bottom: 4em;
+    line-height: 1.5em;
 }
 #page-projects section > div {
 background-color: #b97a57;

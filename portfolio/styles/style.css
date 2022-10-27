@@ -12,6 +12,7 @@ body {
 }
 a {
     text-decoration: none;
+    color: #275dad;
 }
 /*HEADER*/
 header {
@@ -95,10 +96,11 @@ main {
     justify-items: center;
     align-items: center;
 }
-.language-hero h1 {
+.language-hero #page-title {
     grid-row: 1/1;
     grid-column: 1/1;
     z-index: 1;
+    color: #A43312
 }
 .language-hero img {
     grid-row: 1/1;
@@ -116,8 +118,6 @@ main {
 .language-lists .left {
     margin-right: 4em;
 }
-.language-lists .right {
-}
 .list-wrapper {
     background-color: #b97a57;
     padding: 2em;
@@ -130,6 +130,23 @@ main {
 }
 .list-wrapper h2 {
     margin-top: 0;
+}
+#zion-choir {
+    display: flex;
+    justify-content: space-between;
+}
+#zion-choir-image {
+    margin-left: 2em;
+    max-width: 400px;
+}
+#page-projects section {
+    background-color: #275dad;
+    padding: 4em;
+    margin-bottom: 4em;
+}
+#page-projects section > div {
+background-color: #b97a57;
+padding: 2em;
 }
 /*FOOTER*/
 footer {
